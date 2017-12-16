@@ -1,0 +1,102 @@
+body,div,dl,dt,dd,ul,li,h1,h2 ,
+input,textarea,p,th,td { 
+    padding: 0; 
+    margin: 0; 
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img { 
+    border: 0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+caption,th { 
+    text-align: left; 
+} 
+h1,h2 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+
+.w{
+    width: 1210px;
+    margin:0 auto;
+    box-sizing: border-box;/*设置固定宽度*/
+}
+
+.fl{float: left;}
+.fr{float: right;}
+.img_wrap_container{
+    width: 230px;
+    height: 135px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 10px;
+}
+#logo{
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 9;
+    margin: 33px 20px;
+}
+
+#xiangguan{
+    font-size: 23px;
+    font-weight: bold; 
+}
+
+#wenzi{
+    float:right;
+    font-size: 30px;
+    color: #FF3399;
+    margin-left: 89px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search_btn{
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border: 0;
+    background: #FF3399;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 45px;
+}
+#search_text{
+    float: left;
+    width: 393px;
+    height: 38px;
+    border: 1px solid #FF3399;
+    background: #fff;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0 10px;
+    outline: none;
+    margin-top: 45px;
+    margin-left: 39px;
+            }
+
+#leibie{
+    color: #FF3399;
+    float: right;
+}      
+#img_container{
+    background: #33ffdd;
+    width: 920px;
+    height: 290px;
+    padding: 5px 0 0 5px;
+    margin-top: 30px;
+}  
+body{
+    background:#DDDDDD;
+}
